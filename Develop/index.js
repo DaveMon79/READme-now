@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs')
 
 
-// const questions = () =>
+const questions = () =>
 
 inquirer
   .prompt([
@@ -111,4 +111,7 @@ or by email - ${response.email}`;
     );
   });
 
+
+
+  questions ()
 
