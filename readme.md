@@ -27,7 +27,7 @@ This week’s assignment was fairly similar to the week 9 mini project which we 
 # Code Style
 
 * Javascript
-* Node
+* Node.js
 * Inquirer
 
 # Screenshots
@@ -40,7 +40,9 @@ This week’s assignment was fairly similar to the week 9 mini project which we 
 
 Here's a video link which displays the functionality of the application:
 
-https://youtu.be/ddiycgaDLr0
+https://www.youtube.com/watch?v=PLuhlecntK0
+
+
 
 # Links to Project:
 
@@ -50,7 +52,7 @@ https://davemon79.github.io/READme-now/
 
 # Difficulties
 
-I found the license badge section the most difficult section to complete, because I didn't fully understand what rendering the badge and section meant. After my tutor explained exactly what it was asking me do, i was able to complete the task. 
+I found the license badge and link sections the most difficult section to complete, because I didn't fully understand what rendering the badge, link and section meant. After my tutor explained exactly what it was asking me do, i was able to complete the task. 
 
 # Success
 

@@ -2,13 +2,13 @@ const fs = require('fs')
 
 function renderLicenseBadge(license) {
 
-  if (license === "MIT") {
+  if (license === "[MIT](https://opensource.org/licenses/MIT)") {
+    return '![License](https://img.shields.io/badge/License-mit-orange.svg)'
+  }
+  else if (license === "[APACHE 2.0](https://opensource.org/licenses/MIT)") {
     return '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
   }
-  if (license === "APACHE 2.0") {
-    return '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
-  }
-  else if (license === 'GPL 3.0') {
+  else if (license === '[GPL 3.0](https://opensource.org/licenses/gpl-license)') {
     return '![License](https://img.shields.io/badge/License-GNU%20GPL-blue)'
   }
   else (license === 'None')
@@ -26,7 +26,6 @@ function renderLicenseLink(license) {
 
 }
 
-
 function renderLicenseSection(license) { 
   if (license !== "None") {
     return `\n# License:
@@ -39,11 +38,10 @@ ${license}\n`
     return ""
 }
 
-
 function generateMarkdown(response) {
   
-  return `  ${renderLicenseBadge(response.license)}
-
+  return `${renderLicenseBadge(response.license)}
+  
 # ${response.title}     
 
 # Description
