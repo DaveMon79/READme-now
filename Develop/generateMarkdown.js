@@ -1,5 +1,7 @@
+// Opening filing system
 const fs = require('fs')
 
+// This function adds a lisence badge base on user input
 function renderLicenseBadge(license) {
 
   if (license === "[MIT](https://opensource.org/licenses/MIT)") {
@@ -16,6 +18,7 @@ function renderLicenseBadge(license) {
 
 }
 
+// This function add a lisence link in the table of contents
 function renderLicenseLink(license) {
   if (license !== "None") {
     return `\n* [License](#License)\n`
@@ -26,6 +29,7 @@ function renderLicenseLink(license) {
 
 }
 
+// This function adds a lisence section to the the READme file
 function renderLicenseSection(license) { 
   if (license !== "None") {
     return `\n# License:
@@ -38,6 +42,7 @@ ${license}\n`
     return ""
 }
 
+// This function sends a string to the inquierer sections which populates the READme file
 function generateMarkdown(response) {
   
   return `${renderLicenseBadge(response.license)}
@@ -86,6 +91,6 @@ For any additional Information. Please contact me on:
 
 };
 
-
+// Exports file to index.js
 module.exports = generateMarkdown;
 

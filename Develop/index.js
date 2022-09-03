@@ -1,7 +1,10 @@
+// Import generateMarkdown.js file
 const generateMarkdown = require("./generateMarkdown")
+
 const inquirer = require('inquirer');
 const fs = require('fs')
 
+// Prompt questions array
 const questions = [
   {
     type: 'input',
@@ -55,7 +58,7 @@ const questions = [
   },
 ];
 
-
+// Generates the READme file
 inquirer
   .prompt(questions)
   .then((response) => {
