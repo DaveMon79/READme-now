@@ -17,7 +17,7 @@ const questions = [
   {
     type: 'input',
     message: 'Please enter any installation instructions?',
-    name: 'installation ',
+    name: 'installation',
   },
   {
     type: 'input',
@@ -32,7 +32,10 @@ const questions = [
   {
     type: 'list',
     message: 'What kind of license does your project have?',
-    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'None'],
+    choices: ['[MIT](https://opensource.org/licenses/MIT)', 
+              '[APACHE 2.0](https://opensource.org/licenses/MIT)', 
+              '[GPL 3.0](https://opensource.org/licenses/gpl-license)', 
+              'None'], 
     name: 'license',
   },
   {
