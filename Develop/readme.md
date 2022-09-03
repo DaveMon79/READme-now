@@ -1,10 +1,10 @@
   
 
-# README.md generator      
+# README Generator     
 
 # Description
 
-README.md generator
+README Generator
   
 ## Table of Contents:
   
@@ -22,12 +22,12 @@ README.md generator
   
 # Installation:
   
-README.md generator
+README Generator
   
 # Usage:
-
-README.md generator
   
+README Generator
+
 # License:
   
 This project is licensed under:
@@ -36,16 +36,16 @@ This project is licensed under:
 
 # Contributing:
   
-README.md generator
+README Generator
   
 # Tests:
   
-README.md generator
+README Generator
   
 # Questions:
   
 For any additional Information. Please contact me on:
 
-* README.md generator
+* README Generator
   
-* README.md generator
+* README Generator

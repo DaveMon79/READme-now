@@ -1,8 +1,8 @@
-# README Generater
+# README Generator
 
 # Description
 
-This weeks assignemnt was to generate a professional README.md file based on user input, using Node.js and inquirer. The README.md file had to include the following:
+This week’s assignment was to generate a professional README.md file based on user input, using Node.js and inquirer. The README.md file had to include the following:
 
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
@@ -20,11 +20,9 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-
 # Actions taken
 
-This weeks assignment was fairly similar to the week 9 mini project which we attempted. I revieved the solved code and the  inquirer section from the weeks lessons, which enabled me to initialise node, install inquirer applications and easily build the prompt questions and generate the README file. I had to do a lot of research and speak to my tutor to understand what the render license sections required me to do. Once i understood that, i was able to build the rest of the application.
-
+This week’s assignment was fairly similar to the week 9 mini project which we attempted. I revived the solved code and the inquirer section from the week’s lessons, which enabled me to initialise node, install inquirer applications and easily build the prompt questions and generate the README file. I had to do a lot of research and speak to my tutor to understand what the render license sections required me to do. Once I understood that I was able to build the rest of the application.
 
 # Code Style
 
@@ -38,6 +36,11 @@ This weeks assignment was fairly similar to the week 9 mini project which we att
 
 ![image](https://user-images.githubusercontent.com/103275458/188264083-019a79e3-9a5f-4a59-9333-225afd212fd2.png)
 
+# Video link 
+
+Here's a video link which displays the functionality of the application:
+
+![video](https://youtu.be/ddiycgaDLr0)
 
 # Links to Project:
 
@@ -47,15 +50,15 @@ https://davemon79.github.io/READme-now/
 
 # Difficulties
 
-I found the licesne badge section the most difficult section to complete, because i didn't fully understand what rendering the badge and section meant. After my tutor explained exactly what it was asking me do, i was able to complete the task. 
+I found the license badge section the most difficult section to complete, because I didn't fully understand what rendering the badge and section meant. After my tutor explained exactly what it was asking me do, i was able to complete the task. 
 
 # Success
 
-I was able to complete the prompt questions and generate the README file a lot easier than i was expecting. This weeks lessons gave you a great insight on how to complete the assignemnt
+I was able to complete the prompt questions and generate the README file a lot easier than I was expecting. This weeks lessons gave you a great insight on how to complete the assignment
 
 # Credits
 
-* My Tutor - Dan Sires
+* My Tutor - Michael Cambias
 * Book - Javascript from beginner to professional 
 * You Tube - Tutorial videos
 * https://www.w3schools.com/ - for code tips
