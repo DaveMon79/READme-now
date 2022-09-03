@@ -40,7 +40,7 @@ This week’s assignment was fairly similar to the week 9 mini project which we 
 
 Here's a video link which displays the functionality of the application:
 
-![video](https://youtu.be/ddiycgaDLr0)
+https://youtu.be/ddiycgaDLr0
 
 # Links to Project:
 
